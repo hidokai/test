@@ -12,7 +12,7 @@ Resources:
         Type: AWS::Serverless::Function 
         Properties:
             CodeUri: hello_world/
-            Handler: app.lambda_handler
+            Handler: handler.lambda_handler
             Runtime: python3.7
             
 Outputs:
