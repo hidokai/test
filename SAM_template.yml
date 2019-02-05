@@ -16,6 +16,7 @@ Resources:
                 Key: hello/handler.zip
             Handler: handler.lambda_handler
             Runtime: python3.7
+            AutoPublishAlias: live
             
 Outputs:
     HelloWorldFunction:
